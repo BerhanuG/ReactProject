@@ -25,7 +25,7 @@ export default class ProdukterCart extends React.Component<IProdukterCartProps, 
                     <h2>Barn Leksaker Web-Shop</h2>
                 </div>
                 <div style={{width: '5%', float: 'left', paddingTop: 12, cursor: 'pointer'}} onClick={this.props.cart1}>
-                    <div><Icon iconName="ShoppingCartSolid" className="ms-ShoppingCartSolid" />{' '}{this.props.addingNumber}</div>
+                    <div><Icon iconName="Shop" className="ms-Shop" />{' '}{this.props.addingNumber}</div>
                     <div>CART</div>
                 </div>
                 <br style={{ clear: 'left' }} />
