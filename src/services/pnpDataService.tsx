@@ -43,7 +43,7 @@ export class PnPDataService implements IDataService {
             }).then((oId) => {
                 console.log("This is Id for Ordrar and produkter list: ", oId.data.Id);
                 console.log("list: ", oId);
-
+ 
             });
 
         }
